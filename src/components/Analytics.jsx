@@ -24,8 +24,8 @@ const Analytics = () => {
             </div>
         </div>
 
-        <div className='flex justify-center w-full h-60 bg-black mt-8 rounded-tr-[100px]'>
-            <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 justify-center items-center gap-52 py-14'>
+        <div className='flex justify-center w-full h-[650px] md:h-60 bg-black mt-8 rounded-tr-[100px]'>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 justify-center items-center gap-28 md:gap-52 py-14'>
                 <div className='mx-auto text-center'>
                     <h1 className='text-[#ff8730] text-5xl font-bold'>10,000+</h1>
                     <h1 className='text-white text-3xl font-bold'>Employees</h1>
