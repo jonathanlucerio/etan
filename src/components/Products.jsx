@@ -19,20 +19,20 @@ function Products() {
           },
           700:{
             slidesPerView: 3,
-            spaceBetween: 15
+            spaceBetween: 15,
           }
         }}
         
         freeMode={true}
         pagination ={{
-          clickable: true
+          clickable: true,
         }}
         modules ={[FreeMode, Pagination]}
         className='max-w-[90%] lg:max-w-[80%]'
         >
         {ServiceData.map((item) => (
           <SwiperSlide key={item.title}>
-              <div className='flex flex-col gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[450px] overflow-hidden cursor-pointer'>
+              <div className='flex flex-col gap-6 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[450px] overflow-hidden cursor-pointer'>
                 <div
                 className='absolute inset-0 bg-cover bg-center'
                 style={{ backgroundImage:  `url(${item.backgroundImage})`}}
