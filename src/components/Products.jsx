@@ -5,7 +5,7 @@ import'swiper/css/pagination'
 import 'swiper/css/free-mode'
 import 'swiper/css/navigation'
 
-import {FreeMode, Pagination, Navigation, Mousewheel, Keyboard} from 'swiper/modules'
+import {FreeMode, Pagination, Navigation} from 'swiper/modules'
 import {RxArrowTopRight} from 'react-icons/rx'
 import { ServiceData } from '../constants/Products'
 
@@ -23,15 +23,12 @@ function Products() {
             spaceBetween: 15
           }
         }}
-        cssMode={true}
         navigation={true}
         freeMode={true}
-        mousewheel={true}
-        keyboard={true}
         pagination ={{
           clickable: true,
         }}
-        modules ={[FreeMode, Pagination, Navigation, Mousewheel, Keyboard]}
+        modules ={[FreeMode, Pagination, Navigation]}
         className='max-w-[90%]'
         >
         {ServiceData.map((item) => (
