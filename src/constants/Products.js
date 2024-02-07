@@ -45,7 +45,7 @@ import {
     },
     {
       icon: RxSpeakerLoud,
-      title: "Airpods",
+      title: "Ear Buds",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       backgroundImage: Product5,
     },
