@@ -12,7 +12,7 @@ import { ServiceData } from '../constants/Products'
 
 function Products() {
   return (
-    <div className='flex item-center justify-center flex-col h-auto md:h-screen md:mt-10 bg-black' style={{backgroundImage: `url(${require('../assets/bg2.jpg')})`}}>
+    <div className='flex item-center justify-center flex-col h-auto md:h-screen md:mt-10 overflow-hidden'>
       <h1 className='font-bold text-[#ff8730] text-4xl text-center my-14'>Featured Products</h1>
       <Swiper
         breakpoints={{

@@ -5,7 +5,7 @@ import Delivery from '../assets/fast-delivery.jpg'
 
 const Analytics = () => {
   return (
-    <div className='w-full bg-white pt-12 rounded-tr-[100px]'>
+    <div className='w-full bg-white pt-12 rounded-tr-[100px]' style={{backgroundImage: `url(${require('../assets/bg1.png')})`}}>
         <div className='flex text-3xl justify-center text-center font-bold py-10 md:text-4xl'>
             <h1>Why Choose</h1><h1 className='pl-2 text-[#ff8730]'>Us?</h1>
         </div>

@@ -8,4 +8,7 @@ body{
   background-color: black;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  background-image: url(../src/assets/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
