@@ -37,7 +37,7 @@ function Products() {
           <SwiperSlide key={item.title}>
               <div className='flex flex-col gap-6 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[200px] w-[225px] lg:h-[300px] lg:w-[400px] overflow-hidden cursor-pointer mx-auto'>
                 <div
-                className='absolute inset-0 bg-cover bg-center'
+                className='absolute inset-0 bg-cover bg-center w-full'
                 style={{ backgroundImage:  `url(${item.backgroundImage})`}}
                 />
                 <div className='absolute inset-0 bg-black opacity-10 group-hover:opacity-50'/>
