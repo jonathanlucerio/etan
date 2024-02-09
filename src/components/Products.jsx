@@ -51,8 +51,8 @@ function Products() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className='z-10 md:h-100% md:grid md:grid-cols-2 w-100% my-16 mx-8 md:mx-48 gap-5'>
-        <video className='w-[600px] rounded-lg my-14 md:my-0' src={LaptopVideo} loop autoPlay muted/>
+      <div className='md:h-100% md:grid md:grid-cols-2 w-100% my-16 mx-8 md:mx-48 gap-5'>
+        <video className='md:w-[600px] w-full rounded-lg my-14 md:my-0' src={LaptopVideo} loop autoPlay muted/>
         <div className='mx-4'>
           <div className='flex space-x-2 text-3xl font-semibold mb-5 md:mb-4'>
             <h1 className='text-[#ff8730]'>Elevate</h1><h1 className='text-white'>Your Device</h1>
