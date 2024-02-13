@@ -7,20 +7,20 @@ const Analytics = () => {
   return (
     <div className='w-full bg-white pt-12 rounded-tr-[100px]' style={{backgroundImage: `url(${require('../assets/bg1.png')})`}}>
         <div className='flex text-3xl justify-center text-center font-bold py-10 md:text-4xl'>
-            <h1>Why Choose</h1><h1 className='pl-2 text-[#ff8730]'>Us?</h1>
+            <h1>Why Choose</h1><h1 className='pl-2 md:text-[#ff8730]'>Us?</h1>
         </div>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 items-center gap-20 pt-5'>
             <div className='max-w-[80%] mx-auto md:max-w-[300px]'>
                 <img src={Service} alt="/" className='rounded-2xl mx-auto drop-shadow-lg'/>
-                <h3 class='font-bold text-2xl text-center py-6 mx-auto md:text-4xl'>Exceptional Costumer Service</h3>
+                <h3 className='font-bold text-2xl text-center py-6 mx-auto md:text-4xl'>Exceptional Costumer Service</h3>
             </div>
             <div className='max-w-[80%] mx-auto md:max-w-[300px] pb-10'>
                 <img src={Secure} alt="/" className='rounded-2xl mx-auto drop-shadow-lg'/>
-                <h3 class='font-bold text-2xl text-center py-6 mx-auto md:text-4xl'>Secure Online Shopping</h3>
+                <h3 className='font-bold text-2xl text-center py-6 mx-auto md:text-4xl'>Secure Online Shopping</h3>
             </div>
             <div className='max-w-[80%] mx-auto md:max-w-[300px]'>
                 <img src={Delivery} alt="/" className='rounded-2xl mx-auto drop-shadow-lg'/>
-                <h3 class='font-bold text-2xl text-center py-6 mx-auto md:text-4xl'>Super Fast Delivery and Service</h3>
+                <h3 className='font-bold text-2xl text-center py-6 mx-auto md:text-4xl'>Super Fast Delivery and Service</h3>
             </div>
         </div>
 
