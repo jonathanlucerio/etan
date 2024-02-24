@@ -25,7 +25,7 @@ const Navigation = () => {
                 <NavLink to='/store'>Store</NavLink>
             </li>
             <li className='p-4 hover:text-[#ff8730] cursor-pointer'>
-                <NavLink to='/contact'>Contact</NavLink>
+                <NavLink to='/signup'>Sign Up</NavLink>
             </li>
         </ul>
 
@@ -40,7 +40,7 @@ const Navigation = () => {
                 <li className='p-4 border-b border-gray-600'><NavLink to='/home'>Home</NavLink></li>
                 <li className='p-4 border-b border-gray-600'><NavLink to='/about'>About</NavLink></li>
                 <li className='p-4 border-b border-gray-600'><NavLink to='/store'>Store</NavLink></li>
-                <li className='p-4 border-b border-gray-600'><NavLink to='/contact'>Contact</NavLink></li>
+                <li className='p-4 border-b border-gray-600'><NavLink to='/signup'>Sign Up</NavLink></li>
             </ul>
         </div>
     </div>

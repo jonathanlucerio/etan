@@ -15,4 +15,5 @@ body{
 
 .active{
   color: #ff8730;
+  font-weight: 500;
 }
