@@ -3,7 +3,6 @@ import { ReactTyped } from "react-typed";
 import Laptop from '../assets/Laptop1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import Store from '../Pages/Store';
 import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {

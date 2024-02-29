@@ -8,7 +8,7 @@ function Store() {
           <div className='w-[300px] h-screen'>
             <div className='border-2 border-white rounded-md'>
               <dl className='text-white text-[18px] p-5'>
-                <dt><b>Gender</b></dt>
+                <dt className='font-bold text-[#ff8730]'>Gender</dt>
                 <dd>All</dd>
                 <dd>Men</dd>
                 <dd>Women</dd>
@@ -17,7 +17,7 @@ function Store() {
             </div>
             <div className='border-2 border-white rounded-md mt-5'>
               <dl className='text-white text-[18px] p-5'>
-                <dt><b>Size</b></dt>
+                <dt className='font-bold text-[#ff8730]'>Size</dt>
                 <dd>XS</dd>
                 <dd>S</dd>
                 <dd>M</dd>
