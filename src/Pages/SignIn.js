@@ -4,10 +4,10 @@ import techboy from '../assets/techboy.png'
 function SignIn() {
   return (
     <div className='md:mx-48'>
-        <h1 className='text-[#ff8730] font-semibold text-5xl text-center mt-[50px]'>Welcome to ETAN!<span className="animate-waving-hand">👋🏻</span></h1>
+        <h1 className='text-[#ff8730] font-semibold text-3xl md:text-5xl text-center mt-[50px]'>Welcome to ETAN!<span className="animate-waving-hand">👋🏻</span></h1>
         <div className='w-full h-auto'>
-          <div className='md:flex md:w-[1000px] md:h-[600px] w-[90%] h-full bg-white/20 backdrop-blur-sm rounded-lg justify-center mx-auto mt-[40px] items-center gap-10 border-2 border-white/30'>
-            <div className='w-[40%] h-[80%] rounded-lg'>
+          <div className='md:flex md:w-[1000px] md:h-[600px] w-[90%] h-full bg-white/20 backdrop-blur-sm rounded-lg justify-center mx-auto mt-[40px] items-center gap-3 border-2 border-white/30'>
+            <div className='md:w-[40%] md:h-[80%] w-[90%] h-auto mx-auto my-[20px] rounded-lg'>
               <h1 className='font-semibold text-white text-4xl text-center mb-[15px]'>Log<span className='text-[#ff8730]'>in</span></h1>
                 <form className='text-black w-[300px] mx-auto'>
                   <input type='text' id='username' name='username' placeholder='Email or Username' className='w-[300px] h-[45px] my-5 px-2 rounded-md'></input>
@@ -28,7 +28,7 @@ function SignIn() {
               <p className='text-sm text-white text-center mt-[20px]'>Doesn't have an account yet? <a href='/' className='hover:underline cursor-pointer text-[#ff8730]'>Sign Up</a></p>
               
             </div>
-            <div className='w-[50%] h-[60%]'><img src={techboy} alt='techboy' className='w-100% justify-center'></img></div>
+            <div className='md:w-[50%] md:h-[60%] w-[90%] m-[20px]'><img src={techboy} alt='techboy' className='w-100% justify-center'></img></div>
             
           </div>
         </div>
