@@ -14,10 +14,10 @@ function SignIn() {
                   <input type='password' autoComplete='off' id='password' name='current-password' placeholder='Password' className='w-[300px] h-[45px] px-2 rounded-md'></input><br/>
                   <input type='checkbox' name='rememberme' id='rememberme' placeholder='Remember me' className='mx-[5px] my-[20px]'></input><label htmlFor='rememberme' className='text-white text-md'>Remember me</label> 
                   <button type='submit' className='w-[300px] h-[50px] rounded-lg bg-[#ff8730] hover:bg-[#ffa551] font-bold text-white'>LOG IN</button>
-                  <p className='text-center mt-[20px]'><a href='/' className='text-sm text-white hover:underline cursor-pointer'>Forgot Password?</a></p>
+                  <p className='text-center mt-[20px]'><a href='/' className='text-sm text-white hover:underline hover:text-[#ff8730] cursor-pointer'>Forgot Password?</a></p>
                   
                 </form>
-              <div className='w-[350px] mt-5 grid grid-cols-3 items-center text-white/90 mx-auto'>
+              <div className='w-[300px] mt-5 grid grid-cols-3 items-center text-white/90 mx-auto'>
                 <hr className='bg-gray-300 h-[3px] rounded-full'/>
                 <p className='text-center'>OR</p>
                 <hr className='bg-gray-300 h-[3px] rounded-full'/>

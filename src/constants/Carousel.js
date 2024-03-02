@@ -1,9 +1,9 @@
 import { useState } from "react";
 import {SlArrowLeft, SlArrowRight} from 'react-icons/sl';
 
-export default function Carousel({slides}){
+export default function Carousel({ slides }){
 
-    let [current, setCurrent] =useState(0);
+    let [current, setCurrent] = useState(0);
 
     let previousSlide = () =>{
         if (current === 0) setCurrent(slides.length - 1);
@@ -21,12 +21,12 @@ export default function Carousel({slides}){
             style={{
                 transform: `translateX(-${current * 100}%)`
             }}>
-                {slides.map((s) => {
-                    return <img className="border-white/50 border-2 rounded-lg" src={s} />;
+                {slides.map((s, a) => {
+                    return <img key={a} className="border-white/50 border-2 rounded-lg" src={s} />;
                 })}
             </div>
 
-            <div className="absolute top-0 h-full w-full justify-between items-center flex text-white/50 px-10 text-3xl">
+            <div className="absolute top-0 h-full w-full justify-between items-center flex text-white/50 md:px-10 px-2 text-3xl">
                 <button onClick={previousSlide}>
                     <SlArrowLeft />
                 </button>
@@ -34,10 +34,10 @@ export default function Carousel({slides}){
                     <SlArrowRight />
                 </button>
             </div>
-            <div className="absolute bottom-0 py-2 flex justify-center gap-3 w-full">
+            <div className="absolute bottom-0 md:py-2 py-0 flex justify-center gap-3 w-full">
                 {slides.map((s, i) =>{
                     return (
-                        <div onClick={()=>setCurrent(i)} key={'circle' + i} className={`rounded-full w-3 h-3 cursor-pointer ${ i === current ? 'bg-[#ff8730]' : 'bg-gray-300'}`}></div>
+                        <div onClick={()=>setCurrent(i)} key={'circle' + i} className={`rounded-full md:w-3 md:h-3 w-2 h-2 cursor-pointer ${ i === current ? 'bg-[#ff8730]' : 'bg-gray-300'}`}></div>
                     )
                 })
 
