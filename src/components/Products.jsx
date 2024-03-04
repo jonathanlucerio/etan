@@ -58,9 +58,9 @@ function Products() {
             <h1 className='text-[#ff8730]'>Elevate</h1><h1 className='text-white'>Your Device</h1>
           </div>
           
-          <p className='w-100% md:w-[500px] text-white opacity-70'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque eum quidem a error aut voluptatem sunt, assumenda optio officia voluptates minus ex? Soluta optio nam adipisci magni necessitatibus ipsam!</p>
+          <p className='w-100% md:w-[500px] text-white opacity-70'>In today's interconnected world, where technology permeates every aspect of our lives, the notion of elevating your device transcends mere functionality to encompass a profound journey towards enhanced digital experiences.</p>
           <br/>
-          <p className='w-100% md:w-[500px] text-white opacity-70'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, mollitia atque facere ex amet earum tempore numquam commodi! Rerum eaque iure velit nulla autem nisi hic dignissimos modi tempore qui?</p>
+          <p className='w-100% md:w-[500px] text-white opacity-70'>This concept signifies a shift from passive consumption to active engagement, from static utility to dynamic empowerment, as individuals harness the full potential of their devices to enrich their lives and amplify their impact on the world.</p>
         </div>
       </div>
     </div>
