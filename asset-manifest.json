@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/etan/static/css/main.5b9f9777.css",
-    "main.js": "/etan/static/js/main.1a500d05.js",
+    "main.css": "/etan/static/css/main.c20558c8.css",
+    "main.js": "/etan/static/js/main.1a00480f.js",
+    "static/media/techvid.mp4": "/etan/static/media/techvid.52216360772ccdbc65fd.mp4",
     "static/media/laptopvid1.mp4": "/etan/static/media/laptopvid1.a0a6db4c2f37960427e1.mp4",
-    "static/media/Product5.jpg": "/etan/static/media/Product5.8116b5d0f7a5d192c826.jpg",
-    "static/media/Product3.jpg": "/etan/static/media/Product3.bc2ee0d7c9aca9ebdb18.jpg",
+    "static/media/Product6.jpg": "/etan/static/media/Product6.5b0930b93a4737d267e8.jpg",
+    "static/media/techboy.png": "/etan/static/media/techboy.ba7eb31b81278895613b.png",
+    "static/media/Product11.jpg": "/etan/static/media/Product11.9d9ab9ff31eea54384e9.jpg",
+    "static/media/Product10.jpg": "/etan/static/media/Product10.d516ca9c2e23e796e255.jpg",
     "static/media/Product1.jpg": "/etan/static/media/Product1.816ca742ff39a34ec937.jpg",
-    "static/media/Product4.jpg": "/etan/static/media/Product4.ac744472c0160fa3bc21.jpg",
-    "static/media/Product2.jpg": "/etan/static/media/Product2.ced0cc2fab545f6e3759.jpg",
+    "static/media/Product3.jpg": "/etan/static/media/Product3.81c03ea2cc5c238e0827.jpg",
+    "static/media/Product7.jpg": "/etan/static/media/Product7.9ae1a8cc3be0449f5bc2.jpg",
+    "static/media/Product5.jpg": "/etan/static/media/Product5.bc00d821fb995d5bc2b9.jpg",
+    "static/media/Product9.jpg": "/etan/static/media/Product9.5f3f9aa065149cc80f36.jpg",
+    "static/media/Product2.jpg": "/etan/static/media/Product2.4e47ae3ef4c838077e96.jpg",
+    "static/media/Product4.jpg": "/etan/static/media/Product4.69efd49d462a8a28be7f.jpg",
+    "static/media/Product12.jpg": "/etan/static/media/Product12.35c45e9a4b4de536c351.jpg",
     "static/media/Laptop1.png": "/etan/static/media/Laptop1.6646deff471583f11666.png",
+    "static/media/Product8.jpg": "/etan/static/media/Product8.c7c003084d858db5621f.jpg",
+    "static/media/slide3.jpg": "/etan/static/media/slide3.0486ef666396efe91213.jpg",
+    "static/media/slide2.jpg": "/etan/static/media/slide2.f934fb6d5675998d1deb.jpg",
     "static/media/bg2.jpg": "/etan/static/media/bg2.7f74d56ce307a948fb2b.jpg",
+    "static/media/slide1.jpg": "/etan/static/media/slide1.54852572f80baebcf391.jpg",
     "static/media/secure-shopping.jpg": "/etan/static/media/secure-shopping.3531023c5675ce3dab78.jpg",
     "static/media/fast-delivery.jpg": "/etan/static/media/fast-delivery.1d58645fcd532a2ce77d.jpg",
     "static/media/customer-service.jpg": "/etan/static/media/customer-service.2046b6b899ba7345741a.jpg",
@@ -17,11 +29,11 @@
     "static/media/bg1.png": "/etan/static/media/bg1.0547e99b4d3139630006.png",
     "static/media/googleplay.png": "/etan/static/media/googleplay.5d4628823c23e7504695.png",
     "index.html": "/etan/index.html",
-    "main.5b9f9777.css.map": "/etan/static/css/main.5b9f9777.css.map",
-    "main.1a500d05.js.map": "/etan/static/js/main.1a500d05.js.map"
+    "main.c20558c8.css.map": "/etan/static/css/main.c20558c8.css.map",
+    "main.1a00480f.js.map": "/etan/static/js/main.1a00480f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9f9777.css",
-    "static/js/main.1a500d05.js"
+    "static/css/main.c20558c8.css",
+    "static/js/main.1a00480f.js"
   ]
 }
